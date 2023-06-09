@@ -7,12 +7,15 @@ public enum CabinCrewMember {
 
     private final String rank;
 
-
     CabinCrewMember(String rank) {
         this.rank = rank;
     }
 
     public String getRank() {
         return rank;
+    }
+
+    public String makeAnnouncement(String announcement) {
+        return "This is your " + rank + " speaking with the following announcement: " + announcement;
     }
 }

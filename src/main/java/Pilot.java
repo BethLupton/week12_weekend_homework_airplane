@@ -1,4 +1,4 @@
-public class Pilot {
+public class Pilot{
 
     private String name;
     private String rank;
