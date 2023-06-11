@@ -1,15 +1,10 @@
-public class Passenger {
+public class Passenger extends Person {
 
-    private String name;
     private int noOfBags;
 
     public Passenger(String name, int noOfBags) {
-        this.name = name;
+        super(name);
         this.noOfBags = noOfBags;
-    }
-
-    public String getName() {
-        return name;
     }
 
     public int getNoBags() {
